@@ -11,10 +11,10 @@ fetch("https://dummy-json.mock.beeceptor.com/companies")
 },[])
 
 return (
-<div>
+<div style={{display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
 <h2>API Data</h2>
 
-<table border="1">
+<table border="2">
 <thead>
 <tr>
 <th>ID</th>
